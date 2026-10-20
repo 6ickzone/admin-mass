@@ -43,12 +43,25 @@ A simple, fast, multi-threaded CLI tool to discover admin/login pages and common
 - Python 3.7+
 - [`requests`](https://pypi.org/project/requests/)
 
-Install dependencies:
+---
 
-```bash
-pip install requests
-```
+## Installation
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/6ickzone/admin-mass.git
+   ```
+
+2. Enter the project directory:
+   ```bash
+   cd admin-mass
+   ```
+
+3. **Install requirements**:
+   ```bash
+   pip install requests
+   ```
+   
 ---
 
 ## Usage
@@ -154,4 +167,4 @@ Paths that time out, fail to connect, or raise other request errors are silently
 
 ## License
 
-This project is released for educational and authorized security testing purposes. Add your preferred license here (e.g. MIT) before publishing.
+This project is licensed under the [WTFPL](LICENSE) — DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
