@@ -51,6 +51,8 @@ adminzoneadmin/
 administr8/
 administratoraccounts/
 admins/
+admin/login.php
+Account/LoginAdmin
 control/
 controlpanel/
 control-panel/
@@ -157,3 +159,4 @@ phpMyAdmin/
 pma/
 myadmin/
 mysql/
+pekapontren/admin_login.php
