@@ -1,3 +1,15 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,10,20,30,40&height=120&section=header&text=MASS%20ADMIN%20FINDER&fontSize=35&fontColor=fff&animation=fadeIn&fontY=35" width="100%"/>
+
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Requests](https://img.shields.io/badge/Library-Requests-orange.svg?style=flat-square)](https://pypi.org/project/requests/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)]()
+[![License](https://img.shields.io/badge/License-Educational-yellow.svg?style=flat-square)]()
+
+</div>
+
+
 # Mass Admin Page Finder
 
 ```
@@ -14,7 +26,7 @@ A simple, fast, multi-threaded CLI tool to discover admin/login pages and common
 
 ---
 
-## ✨ Features
+## Features
 
 - **Multi-threaded scanning** — scan dozens of paths concurrently per target for speed.
 - **Multi-target support** — feed it a list of domains and it scans them one by one.
@@ -26,7 +38,7 @@ A simple, fast, multi-threaded CLI tool to discover admin/login pages and common
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.7+
 - [`requests`](https://pypi.org/project/requests/)
@@ -39,7 +51,7 @@ pip install requests
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Prepare a **path list** (`path.txt`) — one path per line. Lines starting with `#` are treated as comments and skipped.
 
@@ -102,7 +114,7 @@ Rule of thumb: start low, especially on real/live targets, and only raise thread
 
 ---
 
-## 📊 Status Code Legend
+## Status Code Legend
 
 | Status | Meaning |
 |---|---|
@@ -115,7 +127,7 @@ Paths that time out, fail to connect, or raise other request errors are silently
 
 ---
 
-## ⚙️ How it works (short version)
+## How it works (short version)
 
 1. Loads your path list and target list.
 2. For each target, builds `base_url + path` combinations.
@@ -125,7 +137,7 @@ Paths that time out, fail to connect, or raise other request errors are silently
 
 ---
 
-## 🛠️ Roadmap / Ideas
+## Roadmap / Ideas
 
 - [ ] Option to scan all targets without the per-hit prompt (silent/batch mode flag).
 - [ ] Output results to a file (`.txt` / `.json` / `.csv`).
@@ -134,13 +146,12 @@ Paths that time out, fail to connect, or raise other request errors are silently
 
 ---
 
-## 👤 Author
+## Author
 
 **6ickzone** (0x6ick)
-Security researcher & content creator.
 
 ---
 
-## 📄 License
+## License
 
 This project is released for educational and authorized security testing purposes. Add your preferred license here (e.g. MIT) before publishing.
